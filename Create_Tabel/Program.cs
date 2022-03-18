@@ -19,7 +19,7 @@ namespace Create_Tabel
             SqlConnection con = null;
             try
             {
-                con = new SqlConnection("data source = MSI;database=Activity1;User ID=sa;Password=12345678");
+                con = new SqlConnection("data source = MSI;database=ProdiTI;User ID=sa;Password=12345678");
                 con.Open();
 
                 SqlCommand cm = new SqlCommand("create table Mahasiswa_Coba (NIM char(12) not null primary key," +
